@@ -1,6 +1,6 @@
 # OPENING--AND-CLOSING
-### Name - AJAYRAJA RATHINAM T
-### Register Number - 212224240006
+### Name - MIDHUN S
+### Register Number - 212224230158
 ## Aim
 To implement Opening and Closing using Python and OpenCV.
 
@@ -25,7 +25,7 @@ Use Closing Operation
  
 ## Program:
 
-``` Python
+``` py
 # Import the necessary packages
 import cv2
 import numpy as np
@@ -56,8 +56,6 @@ plt.title("Opening Operation")
 plt.axis('off')
 
 
-
-
 # Closing is dilation followed by erosion
 closed_image = cv2.morphologyEx(image, cv2.MORPH_CLOSE, kernel)
 # Display the result of Opening
@@ -69,18 +67,13 @@ plt.axis('off')
 ## Output:
 
 ### Display the input Image
-<img width="485" height="515" alt="image" src="https://github.com/user-attachments/assets/08de135b-c6a8-445f-8c1a-873f87363d42" />
-
-
-
+<img width="465" height="502" alt="image" src="https://github.com/user-attachments/assets/8a4514a7-be57-4988-b418-1625c122bf65" />
 
 ### Display the result of Opening
-<img width="487" height="513" alt="image" src="https://github.com/user-attachments/assets/883b5f24-8193-4eae-9797-523102ed4b6f" />
-
-
+<img width="467" height="507" alt="image" src="https://github.com/user-attachments/assets/07095e2c-aa99-42ba-8a7a-b79e1f230af4" />
 
 ### Display the result of Closing
-<img width="483" height="511" alt="image" src="https://github.com/user-attachments/assets/0c627ad6-481f-40c9-88b9-22403bd2ee95" />
+<img width="470" height="490" alt="image" src="https://github.com/user-attachments/assets/7e391c88-2572-48c2-bd04-b90ea3113b62" />
 
 
 
